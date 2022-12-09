@@ -10,7 +10,7 @@ Finally run
 ## Quickstart pnpm and swc (faster)
 
 #### install pnpm
-`npm-g pnpm`
+`npm i -g pnpm`
 
 #### install swc requirements
 
