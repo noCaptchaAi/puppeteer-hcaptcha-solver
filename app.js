@@ -3,11 +3,12 @@ import { solveCaptcha } from "nocaptchaai-puppeteer";
 
 const urlList = [
   "https://accounts.hcaptcha.com/demo",
-  "https://shimuldn.github.io/hcaptcha",
+  "https://www.hcaptcha.com/pro",
 ];
 
-const API_KEY = "palash-848edb5a-86b1-2df7-44a8-8836ec0531e7"; // <-- your UID here
-const UID = "palash"; // <-- your API key here
+//**** get apikey here -> http://nocaptchaai.com *****
+const API_KEY = ""; // <-- your UID here
+const UID = ""; // <-- your API key here
 
 const main = async () => {
   for (let i = 0; i < urlList.length; i++) {
@@ -16,10 +17,8 @@ const main = async () => {
     await page.goto(urlList[i]);
     await page.waitForNetworkIdle();
 
-    await solveCaptcha(page, API_KEY, UID, "free");
-
-    await page.screenshot({ path: `${URL}.jpeg`, type: "jpeg" });
-
+    await solveCaptcha(page, API_KEY, UID, "pro");
+    await page.screenshot({ path: `${urlList[i]}.jpeg`, type: "jpeg" });
     await browser.close();
   }
 };

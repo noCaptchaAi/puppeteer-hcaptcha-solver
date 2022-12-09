@@ -1,25 +1,13 @@
 ## Quickstart npm
 
-`npm i nocaptchaai-puppeteer puppeteer`
-
-`npm i -D @swc-node/register @swc/core @swc/cli`
-
-Finally run
+`npm i`
 
 `npm run start`
 
-## Quickstart pnpm and swc (faster)
+## Quickstart with pnpm and swc (faster)
 
-#### install pnpm
 `npm i -g pnpm`
 
-#### install swc requirements
-
-`pnpm add nocaptchaai-puppeteer puppeteer`
-
-`pnpm add -D @swc-node/register @swc/core @swc/cli `
-
-
-Finally run
+`pmpm i`
 
 `pnpm run start`
