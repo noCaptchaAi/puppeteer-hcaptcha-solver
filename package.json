@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-hcaptcha-solver",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "example repo for nocaptchaai-puppeteer, edit app.js as per your need",
   "main": "app.js",
   "type": "module",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@swc-node/register": "^1.5.4",
     "@swc/cli": "^0.1.57",
-    "@swc/core": "^1.3.22"
+    "@swc/core": "^1.3.22",
+    "typescript": "^4.9.4"
   }
 }
