@@ -1,13 +1,17 @@
-## Quickstart npm
+### Quickstart repo for https://github.com/noCaptchaAi/nocaptchaai-puppeteer
 
-`npm i`
+## npm
+```bash
+git clone https://github.com/noCaptchaAi/puppeteer-hcaptcha-solver
+cd puppeteer-hcaptcha-solver
+npm i
+npm run start
+```
 
-`npm run start`
-
-## Quickstart with pnpm and swc (faster)
-
-`npm i -g pnpm`
-
-`pmpm i`
-
-`pnpm run start`
+## pnpm 
+```
+git clone https://github.com/noCaptchaAi/puppeteer-hcaptcha-solver
+cd puppeteer-hcaptcha-solver
+npm i
+pnpm run start
+```
