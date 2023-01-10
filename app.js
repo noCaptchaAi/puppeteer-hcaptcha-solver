@@ -7,8 +7,9 @@ const urlList = [
 ];
 
 //**** get apikey here -> http://nocaptchaai.com *****
+// ONLY PASTE APIKEY inside " ". that's all
 const API_KEY = "";
-const UID = "";
+const UID = "NO-NEED";
 
 const main = async () => {
   for (let i = 0; i < urlList.length; i++) {
